@@ -22,7 +22,7 @@ namespace Memoline
 {
     internal class RestClient
     {
-        static readonly string baseURI = "http://192.168.10.12:8080";
+        static readonly string baseURI = "http://memoline.neko.kr";
 
         private HttpClient client;
         private ISharedPreferences appPref;
