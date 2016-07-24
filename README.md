@@ -6,7 +6,7 @@
 
 메모라인은 이러한 컨셉으로 만들어졌습니다.
 
-![Alt text](https://raw.githubusercontent.com/sokcuri/MemolineClient/master/Memoline/concept.png)
+![Alt text](https://raw.githubusercontent.com/sokcuri/MemolineClient/master/concept.jpg)
 
 ## 구현된 기능
 현재 구현된 기능은 다음과 같습니다
