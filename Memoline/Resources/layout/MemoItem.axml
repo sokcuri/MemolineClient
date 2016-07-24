@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_margin="5dp"
+        android:padding="8dp"
+        android:background="#eee">
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/MemoDate"
+            android:layout_marginBottom="8dp"
+            android:textColor="#000" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/MemoText"
+            android:layout_marginBottom="8dp"
+            android:textColor="#000" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:gravity="right">
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/editButton"
+                android:src="@drawable/edit"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:visibility="invisible" />
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/delButton"
+                android:src="@drawable/delete"
+                android:layout_marginLeft="20dp"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:onClick="OnDelClick" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

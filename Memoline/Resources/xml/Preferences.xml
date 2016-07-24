@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <EditTextPreference
+    android:key="pref_user_token"
+    android:defaultValue=""/>
+  <EditTextPreference
+    android:key="pref_user_secret"
+    android:defaultValue=""/>
+  <EditTextPreference
+    android:key="pref_user_type"
+    android:defaultValue=""/>
+</PreferenceScreen>
